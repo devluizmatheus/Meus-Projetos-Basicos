@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.cabeçalho {
+    background-image: url(../images/claire_leon.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin: 0px;
+}
+
+.título {
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.65);
+    text-align: center;
+    font-size: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegacao ul {
+    list-style: none;
+    background-color: #730505;
+    padding: 0px;
+    margin: 0;
+    background-image: url(../images/link_img.jpg );
+}
+
+.navegacao a {
+    font-family: fantasy;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+.navegacao a:hover {
+    background-color: #8B0000;
+}
+
+.alinhar {
+    display: flex;
+}
+
+
